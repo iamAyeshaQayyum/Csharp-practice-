@@ -1,0 +1,64 @@
+int valueOne;
+int valueTwo;
+Console.WriteLine("Plz enter the  First value: ");
+valueOne= Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Plz enter the  second value: ");
+valueTwo= Convert.ToInt32(Console.ReadLine());
+int result= valueOne + valueTwo;
+Console.WriteLine("The result is  "+result);
+Console.WriteLine("The result is  "+result+5);
+
+Program#1
+for(int v1=1;v1<=5;++v1){
+    Console.WriteLine("I am Ayesha Qayyum");
+}
+
+Program#2
+//Program to display a table
+int v1;
+Console.WriteLine("Enter a positive Integer: ");
+v1= Convert.ToInt32(Console.ReadLine());
+for(int i=1;i<=10;++i){
+    Console.WriteLine(v1 +"*"  +i+ "="+ v1*i);
+}
+
+
+
+While Loop
+// program to find the sum of positive numbers
+// if the user enters a negative number, the loop ends
+// the negative number entered is not added to the sum
+
+int Number;
+    int sum = 0;
+
+    Console.WriteLine( "Enter a number: ");
+    Number = Convert.ToInt32(Console.ReadLine());
+    
+
+    while (Number >= 0) {
+        
+        sum += Number;
+
+        Console.WriteLine( "Enter a number: ");
+         Number = Convert.ToInt32(Console.ReadLine());
+    }
+     Console.WriteLine( "The sum is " +sum );
+
+
+
+
+Do while loop
+Program to print numbers from 1 to 5
+ int i = 1; 
+
+    // do...while loop from 1 to 5
+    do {
+        Console.WriteLine( i );
+        ++i;
+        
+    }
+    while (i <= 5);
+
+
+
